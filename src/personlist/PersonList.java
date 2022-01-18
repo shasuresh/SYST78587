@@ -14,7 +14,7 @@ public class PersonList {
      */
     public static void main(String[] args) {
     Scanner input = new Scanner (System.in);
-    Person [] p = new Person[4];
+    Person [] p = new Person[3];
     for(int i = 0; i<p.length; i++){
             System.out.println("insert person name: ");
             p[i].setP_name(input.nextLine());
